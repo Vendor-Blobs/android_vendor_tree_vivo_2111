@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vivoem_cmd_table>
+	<common_items>
+		<iteminfo name="GSensorXY" function="set_gsensor_cali_data_handler"/>
+		<iteminfo name="master_clear" function="set_master_data_handler"/>
+		<iteminfo name="get_pcbid" function="get_pcbid_handler"/>
+		<iteminfo name="dpdt" function="set_dpdt_status_handler"/>
+		<iteminfo name="bsptest_nv" function="set_bsptest_nv_handler"/>
+		<iteminfo name="vivolog_flag" function="vivolog_flag_handler"/>
+		<iteminfo name="infrared_data" function="set_ps_cali_data_handler"/>
+		<iteminfo name="get_nv_cali_val" function="get_ps_cali_data_handler"/>
+		<iteminfo name="get_low_nv_cali_val" function="get_ps_cali_data_handler"/>
+		<iteminfo name="get_double_ps_nv_cali_val" function="get_double_ps_cali_data_handler"/>
+		<iteminfo name="light_sensor_data" function="set_als_cali_data_handler"/>
+		<iteminfo name="light_cct_sensor_data" function="set_als_cct_cali_data_handler"/>
+		<iteminfo name="light_sensor_leak_data" function="set_als_leak_data_handler"/>
+		<iteminfo name="acm_flag" function="set_diag_data_handler"/>
+		<iteminfo name="Gyroscope" function="set_gyroscope_cali_data_handler"/>
+		<iteminfo name="read_policy_file" function="read_policy_file_handler"/>
+	</common_items>
+	<sensor_items>
+		<!--VIVO_SENSOR_FACTORY_TEST-->
+		<iteminfo name="ud_light_sensor" function="enter_UD_light_sensor_test_handler"/>
+	</sensor_items>
+</vivoem_cmd_table>
